@@ -1,4 +1,5 @@
 # Diferentes programas con varias alternativas para conocer que hace cada una de ellas.
+# Quita el bloque de comentario al programa que quieras probar :D
 
 """
 
