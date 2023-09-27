@@ -1,7 +1,9 @@
 # Práctica Status (En Servicios de Windows)
 
 Alumno: Marco Aurelio Dominguez Amezcua
+
 Maestro: Michel Emanuel Lopez Franco
+
 Sección: D06 - Tolerante a Fallas
 
 ## Introducción
