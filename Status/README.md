@@ -10,7 +10,9 @@ Para la creación de esta práctica realizaremos una aplicación con la cual nos
 
 Para esta práctica debemos instalar Non-Sucking Service Manager e instalar sus respectivos requerimientos para posteriormente ejecutar comandos desde el símbolo de sistema (CMD). Para esta práctica tomaremos como aplicación de prueba el navegador firefox, la cual se va a cerrar siempre que el usuario la abra.
 
-![Non-Sucking Service Manager](https://github.com/MarcoAurelio-1tb/ToleranteAFallas_2023B/blob/main/Status/Imagenes/nonsucking.PNG)
+![NS](https://github.com/MarcoAurelio-1tb/ToleranteAFallas_2023B/blob/main/Status/Imagenes/nonsucking.PNG)
+
+![CUCEI Logo](https://static.wixstatic.com/media/689543_e867e5de31ce49e7a2c28f84eb1bacf8~mv2.png/v1/fill/w_560,h_150,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logoudggris.png)
 
 Despues de configurarlo, lo activamos con el comando “nssm.exe start proclocker” desde el símbolo de sistema. Aquí es donde aparecerá directamente en nuestros servicios del sistema operativo y quiere decir que ya está funcionando.
 
