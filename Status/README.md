@@ -10,16 +10,15 @@ Para la creación de esta práctica realizaremos una aplicación con la cual nos
 
 Para esta práctica debemos instalar Non-Sucking Service Manager e instalar sus respectivos requerimientos para posteriormente ejecutar comandos desde el símbolo de sistema (CMD). Para esta práctica tomaremos como aplicación de prueba el navegador firefox, la cual se va a cerrar siempre que el usuario la abra.
 
-Imagen
+![Non-Sucking Service Manager](https://github.com/MarcoAurelio-1tb/ToleranteAFallas_2023B/blob/main/Status/Imagenes/nonsucking.PNG)
 
 Despues de configurarlo, lo activamos con el comando “nssm.exe start proclocker” desde el símbolo de sistema. Aquí es donde aparecerá directamente en nuestros servicios del sistema operativo y quiere decir que ya está funcionando.
 
 Para este programa se debemos instalar las bibliotecas:
 -	sys: para acceder a la consola del sistema operativo.
 -	psutil: nos permite acceder a la información sobre los procesos que se corren en los servicios del sistema.
--	
-El código sería el siguiente:
 
+El código sería el siguiente:
 
 ```python
 import sys
