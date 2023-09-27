@@ -12,8 +12,6 @@ Para esta práctica debemos instalar Non-Sucking Service Manager e instalar sus 
 
 ![NS](https://github.com/MarcoAurelio-1tb/ToleranteAFallas_2023B/blob/main/Status/Imagenes/nonsucking.PNG)
 
-![CUCEI Logo](https://static.wixstatic.com/media/689543_e867e5de31ce49e7a2c28f84eb1bacf8~mv2.png/v1/fill/w_560,h_150,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logoudggris.png)
-
 Despues de configurarlo, lo activamos con el comando “nssm.exe start proclocker” desde el símbolo de sistema. Aquí es donde aparecerá directamente en nuestros servicios del sistema operativo y quiere decir que ya está funcionando.
 
 Para este programa se debemos instalar las bibliotecas:
