@@ -99,4 +99,23 @@ Excelente obtuviste un 9
 
 Con este módulo de Python podemos acceder a nuestro servidor local y monitorear todos los flujos que han habido. A continuación, mostraré algunas capturas de como se muestran:
 
+### DASHBOARD
 ![DASHBOARD](https://github.com/MarcoAurelio-1tb/ToleranteAFallas_2023B/blob/main/Prefect/Imagenes/dashboard.PNG)
+
+### FLOWS
+
+![Flows](https://github.com/MarcoAurelio-1tb/ToleranteAFallas_2023B/blob/main/Prefect/Imagenes/flujos.PNG)
+
+### FLOW RUNS
+
+![flowruns](https://github.com/MarcoAurelio-1tb/ToleranteAFallas_2023B/blob/main/Prefect/Imagenes/flowruns.PNG)
+
+## Conclusión
+
+Es una buena herramienta para controlar tareas y para registrar cuando estas están terminadas.
+
+## Referencias
+
+- Prefect [@PrefectIO]. (2023, May 5). How to create multiple deployments from one project in Prefect. Youtube. https://www.youtube.com/watch?v=hCsB5LUj3fs
+- Filesystem - prefect docs. (n.d.). Prefect.Io. Retrieved October 2, 2023, from https://docs.prefect.io/2.13.4/api-ref/prefect/utilities/filesystem/
+- I am trying to get the flow ID after register is there any w prefect-community #prefect-community. (n.d.). I Am Trying to Get the Flow ID after Register Is There Any w Prefect-Community #prefect-Community. Retrieved October 2, 2023, from https://linen.prefect.io/t/2434152/i-am-trying-to-get-the-flow-id-after-register-is-there-any-w
