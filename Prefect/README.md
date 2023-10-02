@@ -95,4 +95,8 @@ Cual fue tu nota del examen?
 Excelente obtuviste un 9
 23:43:01.556 | INFO    | Flow run 'lavender-caterpillar' - Finished in state Completed('All states completed.')
 ```
+## Capturas
 
+Con este módulo de Python podemos acceder a nuestro servidor local y monitorear todos los flujos que han habido. A continuación, mostraré algunas capturas de como se muestran:
+
+![DASHBOARD](https://github.com/MarcoAurelio-1tb/ToleranteAFallas_2023B/blob/main/Prefect/Imagenes/dashboard.PNG)
