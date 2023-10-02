@@ -15,10 +15,6 @@ Para xdd
 # ![NS](https://github.com/MarcoAurelio-1tb/ToleranteAFallas_2023B/blob/main/Status/Imagenes/nonsucking.PNG)
 
 
-```c
-int main(){
-  a = 3;
-  return 0;
-}
-
+```
+pip install prefect
 ```
