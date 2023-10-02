@@ -1,4 +1,4 @@
-# Práctica Status (En Servicios de Windows)
+# WorkFlow
 
 Alumno: Marco Aurelio Dominguez Amezcua
 
@@ -15,7 +15,10 @@ Para xdd
 # ![NS](https://github.com/MarcoAurelio-1tb/ToleranteAFallas_2023B/blob/main/Status/Imagenes/nonsucking.PNG)
 
 
-```html
-<h1>texto de ejemplo</h1>
+```c
+int main(){
+  a = 3;
+  return 0;
+}
 
 ```
