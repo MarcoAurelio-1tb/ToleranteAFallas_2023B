@@ -70,7 +70,44 @@ server {
 
 Volvemos a reiniciar Nginx y ahora sí, podremos ver que al actualizar nuestra ruta principal vamos acceder a los distintos servidores que hemos creado.
 
+### Resultados
+
+<h2>Página principal que al ser modificada va a direccionarnos a un servidor distinto</h2>
+
+<p align="center">
+<img src="https://github.com/MarcoAurelio-1tb/ToleranteAFallas_2023B/blob/main/Microservicios_images/proxy.PNG" width="70%">
+</p>
+
+<h2>Server 1</h2>
+
+<p align="center">
+<img src="https://github.com/MarcoAurelio-1tb/ToleranteAFallas_2023B/blob/main/Microservicios_images/url50.PNG" width="70%">
+</p>
+
+<h2>Server 2</h2>
+
+<p align="center">
+<img src="https://github.com/MarcoAurelio-1tb/ToleranteAFallas_2023B/blob/main/Microservicios_images/url75.PNG" width="70%">
+</p>
+
+<h2>Server 3</h2>
+
+<p align="center">
+<img src="https://github.com/MarcoAurelio-1tb/ToleranteAFallas_2023B/blob/main/Microservicios_images/url100.PNG" width="70%">
+</p>
+
+<h2>Línea de comandos ubuntu</h2>
+
+<p align="center">
+<img src="https://github.com/MarcoAurelio-1tb/ToleranteAFallas_2023B/blob/main/Microservicios_images/ubuntu.PNG" width="70%">
+</p>
+
+<h2>Modificación del archivo</h2>
+
+<p align="center">
+<img src="https://github.com/MarcoAurelio-1tb/ToleranteAFallas_2023B/blob/main/Microservicios_images/nano.PNG" width="70%">
+</p>
 
 ## Conclusión
 
-*inserta conclusion
+Para esa práctica es interesante conocer que se pueden hacer distribución de cargas para distintos servidores. Esto nos puede ayudar para cuando haya excesivas, peticiones o consultas. Nuestro balanceador de cargas nos puede limitar la transferencia y de manera más óptima dar una respuesta más rápida al cliente.
