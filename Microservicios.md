@@ -26,7 +26,47 @@ un buen rendimiento. Cada uno de ellos tiene sus propias características y caso
    - Puede ser más rentable que el escalado vertical, ya que es más fácil y económico agregar instancias virtuales en la nube o en clústeres.
    - Se puede automatizar mediante herramientas de administración de contenedores o orquestación, como Kubernetes.
 
-### Pasos para la actividad
+## Pasos para la actividad
+
+Para esa actividad utilizaremos un balanceador de cargas administrado por Nginx.
+
+Un Load Balancer es como un `Proxy`, este será el encargado de ayudarnos a distribuir el tráfico y administrarlo para distintos servidores.
+Un Proxy prácticamente es un intermediario entre el recurso y una petición.
+
+Lo primero que tenemos que hacer después de crear nuestros servidores es tener instalado Nginx y después realizar una modificación.
+
+### Comandos
+
+`Marco Aurelio@DESKTOP-P33M6SQ:~bytes$ vagrant ssh proxy`
+
+Vamos a crear un archivo en la siguiente ruta con el siguiente comando: `sudo touch /etc/nginx/conf.d/load-balancer.conf`
+
+Vamos a eliminar el elemento que se encarga de mostrarnos en el navegador la instancia Proxy, con el siguiente comando vamos a eliminarlo: `sudo rm -r /etc/nginx/sites-enabled/default`
+
+Y después vamos a reiniciar Nginx: `sudo /etc/init.d/nginx restart`
+
+Posteriormente, vamos a modificar al archivo que acabamos de crear. Con el siguiente comando podemos ingresar al archivo: `sudo nano /etc/nginx/conf.d/load-balancer.conf`.
+
+Vamos en este archivo a generar una propiedad llamada upstream íbamos a definir todos los servidores que vamos a utilizar. Además, vamos a definir un bloque llamado que nombraremos 'Server' y en este es donde vamos a definir la configuración de Nginx:
+
+```cmd
+upstream backend {
+  server 10.0.0.50;
+  server 10.0.0.75;
+  server 10.0.0.100;
+}
+
+server {
+  listen 80;
+  location / {
+    proxy_pass http://backend;
+  }
+}
+```
+
+Volvemos a reiniciar Nginx y ahora sí, podremos ver que al actualizar nuestra ruta principal vamos acceder a los distintos servidores que hemos creado.
 
 
+## Conclusión
 
+*inserta conclusion
