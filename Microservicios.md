@@ -37,7 +37,11 @@ Lo primero que tenemos que hacer después de crear nuestros servidores es tener 
 
 ### Comandos
 
-`Marco Aurelio@DESKTOP-P33M6SQ:~bytes$ vagrant ssh proxy`
+En la siguiente ruta vamos a ingresar el siguiente comando: 
+
+```cmd
+Marco Aurelio@DESKTOP-P33M6SQ:~bytes$ vagrant ssh proxy
+```
 
 Vamos a crear un archivo en la siguiente ruta con el siguiente comando: `sudo touch /etc/nginx/conf.d/load-balancer.conf`
 
