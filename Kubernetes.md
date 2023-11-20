@@ -1,5 +1,13 @@
 # Student Data
 
+Student: Marco Aurelio Dominguez Amezcua
+
+Teacher: Michel Emanuel Lopez Franco
+
+Section: D06 - Tolerante a Fallas
+
+Teacher: Michel
+
 # ¿Qué es Kubernetes?
 Kubernetes es una plataforma de código abierto diseñada para automatizar el despliegue, escalado y operación de aplicaciones en contenedores. Permite la gestión eficiente de contenedores, la orquestación de servicios, la recuperación de fallos, el escalado automático y más.
 
